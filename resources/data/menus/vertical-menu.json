@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "url": "#",
+      "name": "Dashboard",
+      "slug": "dashboard",
+      "icon": "desktop",
+      "tag": "2",
+      "tagcustom": "badge badge-light-danger badge-pill badge-round float-right mr-50",
+      "submenu": [
+        {
+          "url": "/topic-dashboard",
+          "name": "eCommerce",
+          "slug": "topic-dashboard",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "Setting",
+      "slug": "setting",
+      "icon": "settings",
+      "submenu": [
+        {
+          "url": "/topic-settings",
+          "name": "Topic Settings",
+          "slug": "topic-settings",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "ROI Setting",
+      "slug": "roi-setting",
+      "icon": "settings"
+    },
+    {
+      "url": "#",
+      "name": "Account Settings",
+      "slug": "user",
+      "icon": "users"
+    }
+  ]
+}
